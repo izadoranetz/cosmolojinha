@@ -62,6 +62,10 @@ nav {
     background-image: linear-gradient(var(--branco),var(--branco),var(--amarelo-claro));
 }
 
+#titulo-cabecalho {
+    padding-right: 60px;
+}
+
 #titulo-cabecalho p {
     font: 300 1rem var(--fonte);
     color: var(--verde-medio);
@@ -248,6 +252,41 @@ h2 {
 .card-vestir_valor::before {
     content: 'R$';
 }
+
+#receita-drink {
+    background-color: #E35A38;
+    padding: 60px;
+}
+
+#receita-drink h3 {
+    text-align: center;
+    font: 500 1.8rem var(--fonte);
+    color: var(--amarelo-escuro);
+}
+
+#receita-drink h4 {
+    text-align: center;
+    font: 500 1.4rem var(--fonte);
+    color: var(--amarelo-claro);
+    padding-bottom: 24px;
+}
+
+#receita-drink p {
+    font: 400 1rem var(--fonte);
+    color: var(--amarelo-claro);
+    padding-bottom: 16px;
+}
+
+#receita-drink ul {
+    list-style-type: none;
+    font: 400 1rem var(--fonte);
+    color: var(--amarelo-claro);
+    padding-bottom: 24px;
+}
+
+#container-receita-drink {
+    display: flex;
+    justify-content: center;
 
 footer {
     background-color: var(--verde-escuro);
