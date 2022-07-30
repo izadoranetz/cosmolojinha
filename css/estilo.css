@@ -287,6 +287,7 @@ h2 {
 #container-receita-drink {
     display: flex;
     justify-content: center;
+}
 
 footer {
     background-color: var(--verde-escuro);
