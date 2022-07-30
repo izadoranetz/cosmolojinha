@@ -12,7 +12,7 @@
     --laranja: #E35A38;
     --azul-claro: #83C7C9;
     --verde-medio: #509FA6;
-    --azul-escuro: #00474A;
+    --verde-escuro: #00474A;
     --fonte: "Quicksand", "Sans serif";
 }
 
@@ -75,7 +75,7 @@ h1 {
     padding: 60px;
 }
 
-#sobre-nos p {
+#sobre-nos p,  #lojinha p {
     font: 400 1rem var(--fonte);
     color: var(--verde-medio);
     padding-bottom: 8px;
@@ -87,8 +87,166 @@ h2 {
     padding-bottom: 16px;
 }
 
+#lojinha {
+    background-color: var(--branco);
+    padding: 60px;
+}
+
+.container-lojinha {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-lojinha {
+    background: var(--amarelo-claro);
+    height: 320px;
+    width: 340px;
+    border-radius: 20px 20px 20px 20px;
+    display: block;
+    margin: 40px 80px 0px 80px;
+}
+
+.card-lojinha_imagem {
+    width: 100%;
+    height: 85%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-lojinha_descricao {
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    height: 15%;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    color: var(--verde-escuro);
+}
+
+.citacao {
+    background: var(--amarelo-escuro);
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.citacao blockquote * {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.citacao p {
+    width: 1063px;
+    height: 150px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    color: #E35A38;
+}
+
+.citacao cite {
+    width: 1193px;
+    height: 30px;
+    left: 123px;
+    top: 2413px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #E35A38;
+}
+
+#vestir {
+    background-color: var(--azul-claro);
+    padding: 60px;
+}
+
+#vestir p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    font: 400 1rem var(--fonte);
+    color: var(--branco);
+    padding-bottom: 8px;
+}
+
+.container-vestir {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-vestir {
+    background: var(--amarelo-claro);
+    height: 450px;
+    width: 340px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 40px 80px 0px 80px;
+    flex-basis: 20%;
+    display: block;
+}
+
+.card-vestir_imagem {
+    width: 100%;
+    height: 80%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-vestir_detalhes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    height: 20%;
+    color: var(--verde-escuro);
+}
+
+.card-vestir_detalhes {
+    align-items: center;
+
+}
+
+.card-vestir_descricao span {
+    display: block;
+}
+
+.card-vestir_descricao span:nth-of-type(1) {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.card-vestir_descricao span:nth-of-type(2) {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.card-vestir_valor {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.card-vestir_valor::before {
+    content: 'R$';
+}
+
 footer {
-    background-color: var(--azul-escuro);
+    background-color: var(--verde-escuro);
     padding: 40px;
 }
 
