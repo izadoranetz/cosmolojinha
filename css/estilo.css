@@ -17,15 +17,20 @@
 }
 
 body {
-    background-color: var(--branco) ;
+    background-color: var(--branco);
 }
 
-#menu {
+nav {
+    position: sticky;
+	top: 0px;
+	z-index: 1;
     width: 100%;
-    height: 150px;
+    height: 50px;
+    background-color: var(--branco);
 }
 
-#menu a:link {
+
+#menu a:link, a:visited {
     color: var(--laranja);
     text-decoration: none;
     font-family: var(--fonte);
@@ -37,13 +42,13 @@ body {
     color: var(--amarelo-escuro);
 }
 
-ul {
+#menu ul {
     list-style-type: none;
     padding: 16px;
     float: right;
 }
 
-li {
+#menu li {
     float: left;
     padding-right: 44px;
 }
@@ -51,28 +56,27 @@ li {
 #cabecalho {
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    height: 85vh;
+    justify-content: space-evenly;
     align-items: center;
-}
-
-#imagem-cabecalho {
-    
+    background-image: linear-gradient(var(--branco),var(--branco),var(--amarelo-claro));
 }
 
 #titulo-cabecalho p {
     font: 300 1rem var(--fonte);
     color: var(--verde-medio);
-    width: 500px;
+    width: 400px;
+    
 }
 
 h1 {
-    font: 600 3rem var(--fonte);
+    font: 600 3.5rem var(--fonte);
     color: var(--verde-medio);
 }
 
 #sobre-nos {
     background-color: var(--amarelo-claro);
-    padding: 60px;
+    padding: 0px 60px 60px;
 }
 
 #sobre-nos p {
@@ -87,12 +91,34 @@ h2 {
     padding-bottom: 16px;
 }
 
+
+
 footer {
     background-color: var(--azul-escuro);
-    padding: 40px;
+    padding: 60px;
+}
+
+footer ul {
+    list-style-type: none;
+    font: 400 1rem var(--fonte);
+    color: var(--amarelo-claro);
+    padding-bottom: 24px;
+}
+
+footer a:link, a:visited {
+    color: var(--laranja);
+    text-decoration: none;
+    font-family: var(--fonte);
+    font-weight: 500;
 }
 
 footer p {
     font: 400 1rem var(--fonte);
+    color: var(--amarelo-claro);
+}
+
+footer h6 {
+    padding-top: 24px;
+    font: 600 1rem var(--fonte);
     color: var(--amarelo-claro);
 }
