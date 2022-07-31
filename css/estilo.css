@@ -295,6 +295,7 @@ h2 {
     width: 100%;
     height: 80%;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 .card-decorar_detalhes, .card-criar_detalhes {
