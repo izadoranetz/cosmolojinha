@@ -283,10 +283,9 @@ h2 {
     margin: 10px;/*adicionado por cleuber para fazer teste*/
     display: block;
     /*flex-basis: 40%; codigo original da dayane, se meu teste der errado, retornar para o modo programação, na medida em que apago meu teste*/
-    flex-basis: 33%;
+    flex-basis: 40%;
     /*flex: 1 1 200px; adicionado por cleuber para fazer teste*/
     max-width: 800px;/*adicionado por cleuber para fazer teste*/
-    margin: 0 auto;/*adicionado por cleuber para fazer teste*/
 }
 
 .card-criar {
