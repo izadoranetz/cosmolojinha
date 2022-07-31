@@ -294,7 +294,8 @@ h2 {
     /*margin: 40px 40px 0px 40px;  código original dayane*/
     margin: 10px;/*adicionado por cleuber para fazer teste*/
     display: block;
-    flex-basis: 20%;
+    /* flex-basis: 20%; código original dayane*/
+    flex-basis: 33%;
 }
 .card-decorar_imagem, .card-criar_imagem {
     width: 100%;
