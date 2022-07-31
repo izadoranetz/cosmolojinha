@@ -280,8 +280,10 @@ h2 {
     height: 500px;
     border-radius: 20px 20px 20px 20px;
     /*margin: 40px 40px 0px 40px; código original dayane*/
+    margin: 10px;/*adicionado por cleuber para fazer teste*/
     display: block;
     /*flex-basis: 40%; codigo original da dayane, se meu teste der errado, retornar para o modo programação, na medida em que apago meu teste*/
+    flex-basis: 33%;
     flex: 1 1 200px; /*adicionado por cleuber para fazer teste*/
     max-width: 800px;/*adicionado por cleuber para fazer teste*/
     margin: 0 auto;/*adicionado por cleuber para fazer teste*/
@@ -291,11 +293,9 @@ h2 {
     box-sizing: border-box;
     background: var(--amarelo-claro);
     border-radius: 20px 20px 20px 20px;
-    /*margin: 40px 40px 0px 40px;  código original dayane*/
-    margin: 10px;/*adicionado por cleuber para fazer teste*/
+    margin: 40px 40px 0px 40px;
     display: block;
-    /* flex-basis: 20%; código original dayane*/
-    flex-basis: 33%;
+    flex-basis: 20%;
 }
 .card-decorar_imagem, .card-criar_imagem {
     width: 100%;
