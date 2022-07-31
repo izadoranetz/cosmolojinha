@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cleuber Inacio, Dayane Ferreira e Izadora Netz" />
+	<meta name="description" content="Lojinha colaborativa" />
+	<meta name="keywords" content="brechó, bordado, papelaria" />
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <title>Cosmolojinha</title>
 </head>
@@ -15,8 +17,8 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#sobre-nos">Sobre nós</a></li>
-                <li><a href="#">Lojinha</a></li>
-                <li><a href="#">Para vestir</a></li>
+                <li><a href="#lojinha">Lojinha</a></li>
+                <li><a href="#vestir">Para vestir</a></li>
                 <li><a href="#">Para decorar</a></li>
                 <li><a href="#">Para criar</a></li>
                 <li><a href="#">Contato</a></li>
@@ -171,7 +173,30 @@
        </div>
     </section>
 
-<section id="receita-drink">
+    <section id="contato">
+        <div id="container-contato">
+            <div id="formulario-contato">
+                <h2>Contato</h2>
+                <p>Não entre em pânico!! Entre em contato com a gente:</p>
+                <form name="contato-cosmolojinha" action="" method="GET">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" size="60" maxlength="150" placeholder="Digite seu nome completo" required />
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" size="60" placeholder="usuario@email.com">
+                    <label for="mensagem">Mensagem:</label>
+		            <textarea cols="60" rows="6" name="mensagem"></textarea>
+		            <div id="botoes-contato">
+                        <input type="reset" name="btn-cancelar" value="Limpar">
+                        <input type="submit" name="btn-enviar" value="Enviar">
+                    </div>
+                </form>
+            </div>
+            <div id="imagem-contato">
+                <img src="imagens/contato.png" alt="" />
+            </div>
+        </div>
+    </section>
+    <section id="receita-drink">
         <h3>Dinamite Pangaláctica</h3>
         <h4>O melhor drink do Universo</h4>
         <p>A Dinamite Pangaláctica é um drink criado por Zaphod Beeblebrox, um sujeito pra lá de excêntrico, para não
@@ -227,6 +252,7 @@
                 <p>Uma pitadinha de zânfuor.</p>
                 <p>Uma azeitona.</p>
                 <p>Beba… mas com muito cuidado.</p>
+                <img src="imagens/drinks.png" alt="Drinks" id="imagem-drinks" />
             </div>
         </div>
     </section>
@@ -234,8 +260,7 @@
         <p>Criado por:</p>
         <ul>
             <li>Cleuber Amaro <a href="https://instagram.com/atelievariacoes" target="_blank">@atelievariacoes</a></li>
-            <li>Dayane Ferreira <a href="https://instagram.com/friperie_brechozar"
-                    target="_blank">@friperie_brechozar</a></li>
+            <li>Dayane Ferreira <a href="https://instagram.com/friperie_brechozar" target="_blank">@friperie_brechozar</a></li>
             <li>Izadora Netz <a href="https://instagram.com/andorinea" target="_blank">@andorinea</a></li>
         </ul>
         <p>IFB - TSI - Construção de Páginas para Internet</p>
