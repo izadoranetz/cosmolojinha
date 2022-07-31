@@ -218,7 +218,6 @@ h2 {
 
 .card-vestir_detalhes {
     align-items: center;
-
 }
 
 .card-vestir_descricao span {
@@ -334,6 +333,44 @@ h2 {
 
 .card-decorar_valor::before {
     content: 'R$';
+}
+
+.container-segunda-citacao {
+    display: flex;
+    background: var(--amarelo-claro);
+    padding: 60px;
+    align-items: center;
+}
+
+
+.segunda-citacao * {
+    display: block;
+    text-align: center;
+}
+
+.segunda-citacao p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    color: #E35A38;
+}
+
+.segunda-citacao cite {
+    height: 30px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #E35A38;
+    margin-top: 10px;
+}
+
+.segunda-citacao_imagem {
+    position: relative;
+    top: -75px;
 }
 
 #receita-drink {
