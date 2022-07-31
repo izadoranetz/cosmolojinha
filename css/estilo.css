@@ -252,7 +252,7 @@ h2 {
     content: 'R$';
 }
 
-#decorar p{
+#decorar p, #criar p{
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
@@ -263,15 +263,14 @@ h2 {
     padding-bottom: 8px;
 }
 
-#decorar{
+#decorar, #criar{
     background-color: var(--branco);
     padding: 60px;
 }
 
-.container-decorar {
+.container-decorar, .container-criar{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .card-decorar {
@@ -284,13 +283,21 @@ h2 {
     flex-basis: 40%;
 }
 
-.card-decorar_imagem {
+.card-criar {
+    box-sizing: border-box;
+    background: var(--amarelo-claro);
+    border-radius: 20px 20px 20px 20px;
+    margin: 40px 40px 0px 40px;
+    display: block;
+    flex-basis: 20%;
+}
+.card-decorar_imagem, .card-criar_imagem {
     width: 100%;
     height: 80%;
     border-radius: 20px 20px 0px 0px;
 }
 
-.card-decorar_detalhes {
+.card-decorar_detalhes, .card-criar_detalhes {
     display: flex;
     justify-content: space-between;
     padding: 0px 10px 0px 10px;
@@ -298,16 +305,16 @@ h2 {
     color: var(--verde-escuro);
 }
 
-.card-decorar_detalhes {
+.card-decorar_detalhes, .card-criar_detalhes {
     align-items: center;
 
 }
 
-.card-decorar_descricao span {
+.card-decorar_descricao span, .card-criar_descricao span  {
     display: block;
 }
 
-.card-decorar_descricao span:nth-of-type(1) {
+.card-decorar_descricao span:nth-of-type(1), .card-criar_descricao span:nth-of-type(1) {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 500;
@@ -315,7 +322,7 @@ h2 {
     line-height: 30px;
 }
 
-.card-decorar_descricao span:nth-of-type(2) {
+.card-decorar_descricao span:nth-of-type(2), .card-criar_descricao span:nth-of-type(2) {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
@@ -323,7 +330,7 @@ h2 {
     line-height: 20px;
 }
 
-.card-decorar_valor {
+.card-decorar_valor, .card-criar_valor {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
@@ -331,7 +338,7 @@ h2 {
     line-height: 30px;
 }
 
-.card-decorar_valor::before {
+.card-decorar_valor::before, .card-criar_valor::before {
     content: 'R$';
 }
 
