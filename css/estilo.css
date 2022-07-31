@@ -279,7 +279,7 @@ h2 {
     background: var(--amarelo-claro);
     height: 500px;
     border-radius: 20px 20px 20px 20px;
-    margin: 40px 40px 0px 40px; /*código original dayane*/
+    margin: 40px 40px 0px 40px auto; /*código original dayane*/
     /* margin: 10px; adicionado por cleuber para fazer teste*/
     display: block;
     /*flex-basis: 40%; codigo original da dayane, se meu teste der errado, retornar para o modo programação, na medida em que apago meu teste*/
