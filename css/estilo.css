@@ -20,7 +20,7 @@ body {
     background-color: var(--branco);
 }
 
-nav {
+#menu {
     position: -webkit-sticky;
     position: sticky;
 	top: 0;
@@ -112,6 +112,7 @@ h2 {
     border-radius: 20px 20px 20px 20px;
     display: block;
     margin: 40px 80px 0px 80px;
+    padding-bottom: 16px;
 }
 
 .card-lojinha_imagem {
@@ -123,13 +124,20 @@ h2 {
 .card-lojinha_descricao {
     font-family: 'Quicksand';
     font-weight: 500;
-    font-size: 36px;
+    font-size: 1.5rem;
     line-height: 45px;
     text-align: center;
     height: 15%;
     width: 100%;
     border-radius: 0px 0px 20px 20px;
     color: var(--verde-escuro);
+    line-height: 1.5rem;
+    padding: 16px 0px;
+}
+
+.card-lojinha_descricao a:link, .card-lojinha_descricao a:visited {
+    text-decoration: none;
+    color: var(--laranja);
 }
 
 .citacao {
@@ -222,6 +230,7 @@ h2 {
 
 .card-vestir_descricao span {
     display: block;
+    padding: 0 8px;
 }
 
 .card-vestir_descricao span:nth-of-type(1) {
@@ -246,6 +255,7 @@ h2 {
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
+    padding: 0 8px;
 }
 
 .card-vestir_valor::before {
@@ -309,6 +319,7 @@ h2 {
     padding: 0px 10px 0px 10px;
     height: 20%;
     color: var(--verde-escuro);
+    
 }
 
 .card-decorar_detalhes, .card-criar_detalhes {
@@ -324,8 +335,9 @@ h2 {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.3rem;
     line-height: 30px;
+    padding: 0 8px;
 }
 
 .card-decorar_descricao span:nth-of-type(2), .card-criar_descricao span:nth-of-type(2) {
@@ -334,6 +346,7 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+    padding: 0 8px;
 }
 
 .card-decorar_valor, .card-criar_valor {
@@ -342,6 +355,7 @@ h2 {
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
+    padding: 0 8px;
 }
 
 .card-decorar_valor::before, .card-criar_valor::before {
@@ -501,8 +515,15 @@ input[type="reset"] {
 
 footer {
     background-color: var(--verde-escuro);
-    padding: 60px;
+    padding: 0px 60px 60px;
 }
+
+#container-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: baseline;
+}
+
 
 footer ul {
     list-style-type: none;
