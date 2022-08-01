@@ -20,7 +20,7 @@ body {
     background-color: var(--branco);
 }
 
-nav {
+#menu {
     position: -webkit-sticky;
     position: sticky;
 	top: 0;
@@ -112,6 +112,7 @@ h2 {
     border-radius: 20px 20px 20px 20px;
     display: block;
     margin: 40px 80px 0px 80px;
+    padding-bottom: 16px;
 }
 
 .card-lojinha_imagem {
@@ -131,7 +132,12 @@ h2 {
     border-radius: 0px 0px 20px 20px;
     color: var(--verde-escuro);
     line-height: 1.5rem;
-    padding: 8px;
+    padding: 16px 0px;
+}
+
+.card-lojinha_descricao a:link, .card-lojinha_descricao a:visited {
+    text-decoration: none;
+    color: var(--laranja);
 }
 
 .citacao {
@@ -329,7 +335,7 @@ h2 {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.3rem;
     line-height: 30px;
     padding: 0 8px;
 }
@@ -511,6 +517,13 @@ footer {
     background-color: var(--verde-escuro);
     padding: 0px 60px 60px;
 }
+
+#container-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: baseline;
+}
+
 
 footer ul {
     list-style-type: none;
