@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
-    margin: 0; 
+    margin: 0;
     padding: 0;
 }
 
@@ -20,36 +20,37 @@ body {
     background-color: var(--branco);
 }
 
-#menu {
+
+.menu {
     position: -webkit-sticky;
     position: sticky;
-	top: 0;
+    top: 0;
     z-index: 1;
     width: 100%;
     height: 50px;
     background-color: var(--branco);
 }
 
-
-#menu a:link, a:visited {
+.menu a:link,
+a:visited {
     color: var(--laranja);
     text-decoration: none;
     font-family: var(--fonte);
     font-weight: 500;
-    
+
 }
 
-#menu a:hover {
+.menu a:hover {
     color: var(--amarelo-escuro);
 }
 
-#menu ul {
+.menu ul {
     list-style-type: none;
     padding: 16px;
     float: right;
 }
 
-#menu li {
+.menu li {
     float: left;
     padding-right: 44px;
 }
@@ -60,7 +61,7 @@ body {
     height: 85vh;
     justify-content: space-evenly;
     align-items: center;
-    background-image: linear-gradient(var(--branco),var(--branco),var(--amarelo-claro));
+    background-image: linear-gradient(var(--branco), var(--branco), var(--amarelo-claro));
 }
 
 #titulo-cabecalho {
@@ -71,10 +72,10 @@ body {
     font: 300 1rem var(--fonte);
     color: var(--verde-medio);
     width: 400px;
-    
+
 }
 
-h1 {
+.titulo-principal {
     font: 600 3.5rem var(--fonte);
     color: var(--verde-medio);
 }
@@ -84,13 +85,14 @@ h1 {
     padding: 0px 60px 60px;
 }
 
-#sobre-nos p,  #lojinha p {
+#sobre-nos p,
+#lojinha p {
     font: 400 1rem var(--fonte);
     color: var(--verde-medio);
     padding-bottom: 8px;
 }
 
-h2 {
+.subtitulos {
     font: 600 2rem var(--fonte);
     color: var(--verde-medio);
     padding-bottom: 16px;
@@ -136,7 +138,8 @@ h2 {
     padding: 16px 0px;
 }
 
-.card-lojinha_descricao a:link, .card-lojinha_descricao a:visited {
+.card-lojinha_descricao a:link,
+.card-lojinha_descricao a:visited {
     text-decoration: none;
     color: var(--laranja);
 }
@@ -264,7 +267,8 @@ h2 {
     content: 'R$';
 }
 
-#decorar p, #criar p{
+#decorar p,
+#criar p {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
@@ -275,15 +279,18 @@ h2 {
     padding-bottom: 8px;
 }
 
-#decorar, #criar{
+#decorar,
+#criar {
     background-color: var(--branco);
     padding: 60px;
 }
 
-.container-decorar, .container-criar{
+.container-decorar,
+.container-criar {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /*adicionato para testar se consigo dividir os flexbox em 2 linhas - Cleuber */
+    flex-wrap: wrap;
+    /*adicionato para testar se consigo dividir os flexbox em 2 linhas - Cleuber */
 }
 
 .card-decorar {
@@ -291,13 +298,15 @@ h2 {
     background: var(--amarelo-claro);
     height: 500px;
     border-radius: 20px 20px 20px 20px;
-    margin: 40px 40px 0px 40px; /*código original dayane*/
+    margin: 40px 40px 0px 40px;
+    /*código original dayane*/
     /* margin: 10px; adicionado por cleuber para fazer teste*/
     display: block;
     /*flex-basis: 40%; codigo original da dayane, se meu teste der errado, retornar para o modo programação, na medida em que apago meu teste*/
     flex-basis: 40%;
     /*flex: 1 1 200px; adicionado por cleuber para fazer teste*/
-    max-width: 800px;/*adicionado por cleuber para fazer teste*/
+    max-width: 800px;
+    /*adicionado por cleuber para fazer teste*/
 }
 
 .card-criar {
@@ -308,32 +317,38 @@ h2 {
     display: block;
     flex-basis: 20%;
 }
-.card-decorar_imagem, .card-criar_imagem {
+
+.card-decorar_imagem,
+.card-criar_imagem {
     width: 100%;
     height: 80%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
 
-.card-decorar_detalhes, .card-criar_detalhes {
+.card-decorar_detalhes,
+.card-criar_detalhes {
     display: flex;
     justify-content: space-between;
     padding: 0px 10px 0px 10px;
     height: 20%;
     color: var(--verde-escuro);
-    
+
 }
 
-.card-decorar_detalhes, .card-criar_detalhes {
+.card-decorar_detalhes,
+.card-criar_detalhes {
     align-items: center;
 
 }
 
-.card-decorar_descricao span, .card-criar_descricao span  {
+.card-decorar_descricao span,
+.card-criar_descricao span {
     display: block;
 }
 
-.card-decorar_descricao span:nth-of-type(1), .card-criar_descricao span:nth-of-type(1) {
+.card-decorar_descricao span:nth-of-type(1),
+.card-criar_descricao span:nth-of-type(1) {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 500;
@@ -342,7 +357,8 @@ h2 {
     padding: 0 8px;
 }
 
-.card-decorar_descricao span:nth-of-type(2), .card-criar_descricao span:nth-of-type(2) {
+.card-decorar_descricao span:nth-of-type(2),
+.card-criar_descricao span:nth-of-type(2) {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
@@ -351,7 +367,8 @@ h2 {
     padding: 0 8px;
 }
 
-.card-decorar_valor, .card-criar_valor {
+.card-decorar_valor,
+.card-criar_valor {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
@@ -361,7 +378,8 @@ h2 {
     white-space: nowrap;
 }
 
-.card-decorar_valor::before, .card-criar_valor::before {
+.card-decorar_valor::before,
+.card-criar_valor::before {
     content: 'R$';
 }
 
@@ -408,8 +426,8 @@ h2 {
 }
 
 #container-contato {
-    display: flex;    
-    justify-content:space-evenly;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
     padding: 100px;
 }
@@ -432,7 +450,7 @@ h2 {
 }
 
 form {
-	width: 100%;
+    width: 100%;
 }
 
 label {
@@ -440,23 +458,27 @@ label {
     font: 400 1rem var(--fonte);
 }
 
-input, select, fieldset, textarea {
-	width: 100%;
-	color:var(--verde-escuro);
+input,
+select,
+fieldset,
+textarea {
+    width: 100%;
+    color: var(--verde-escuro);
     border: 0;
-	border-radius: 4px;
-	margin: 0 0 16px 0;
-	padding: 8px;
-	box-sizing: border-box;
-	font: 400 1rem var(--fonte);
-	background-color: var(--amarelo-claro);
+    border-radius: 4px;
+    margin: 0 0 16px 0;
+    padding: 8px;
+    box-sizing: border-box;
+    font: 400 1rem var(--fonte);
+    background-color: var(--amarelo-claro);
 }
 
 textarea {
     resize: none;
 }
 
-input[type="submit"], input[type="reset"] {
+input[type="submit"],
+input[type="reset"] {
     margin: 10px 8px;
 }
 
@@ -479,7 +501,7 @@ input[type="reset"] {
 }
 
 #receita-drink {
-    background-image: linear-gradient(var(--laranja),var(--laranja),var(--laranja),var(--verde-escuro));
+    background-image: linear-gradient(var(--laranja), var(--laranja), var(--laranja), var(--verde-escuro));
     padding: 60px;
 }
 
@@ -539,7 +561,8 @@ footer ul {
     padding-bottom: 24px;
 }
 
-footer a:link, a:visited {
+footer a:link,
+a:visited {
     color: var(--laranja);
     text-decoration: none;
     font-family: var(--fonte);

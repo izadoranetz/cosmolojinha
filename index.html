@@ -7,9 +7,8 @@
     <meta name="author" content="Cleuber Inacio, Dayane Ferreira e Izadora Netz" />
 	<meta name="description" content="Lojinha colaborativa" />
 	<meta name="keywords" content="brechó, bordado, papelaria" />
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -22,7 +21,7 @@
 
 <body>
     <!--Nav teve que ficar fora do header ou se não o position sticky não funcionava-->
-    <nav id="menu">
+    <nav class="menu">
         <ul>
             <li><a href="#sobre-nos">Sobre nós</a></li>
             <li><a href="#lojinha">Lojinha</a></li>
@@ -38,14 +37,14 @@
                 <img src="imagens/cabecalho.png" alt="" />
             </div>
             <div id="titulo-cabecalho">
-                <h1>Cosmolojinha</h1>
+                <h1 class="titulo-principal">Cosmolojinha</h1>
                 <p>Produtinhos de outra galáxia, qualidade nunca antes vista neste planeta, disponíveis para terráqueos
                 </p>
             </div>
         </div>
     </header>
     <article id="sobre-nos">
-        <h2>Sobre nós</h2>
+        <h2 class="subtitulos">Sobre nós</h2>
         <p>Somos Cleuber, Dayane e Izadora, três tripulantes interplanetários que adoram viajar bem longe e curtir as
             coisinhas bonitas que existem nessa (e em outras) galáxias. Cada um vindo de um canto, o trio se esbarrou
             por acaso num workshop extraterreno de tecnologia e acabou descobrindo que tinha muito mais em comum. Entre
@@ -61,7 +60,7 @@
         </p>
     </article>  
     <section id="lojinha">
-        <h2>Lojinha</h2>
+        <h2 class="subtitulos">Lojinha</h2>
         <p>
             Não existem diversas lojinhas de produtos de diferentes países? Pois a nossa lojinha é o lugar preferido pra quem já morou ou viajou lá fora! Fora da camada de ozônio! E tem muita gente que ainda não foi, mas gosta dos produtos mesmo assim! Aproveite e explorem bastante, tudo aqui é sobre se conectar com outras ideias, outras estéticas e consigo! Separamos os produtos em três categorias, Pra vestir, Pra decorar e Pra criar, que você pode saber um pouco mais passando o mouse. Se clicar, já é direcionado para a sessão:        
         </p>
@@ -104,7 +103,7 @@
     </section>
 
     <section id="vestir">
-        <h2>Para Vestir</h2>
+        <h2 class="subtitulos">Para Vestir</h2>
         <p>A moda sustentável já foi o futuro. Hoje é o presente e a possibilidade de um mundo melhor. O Friperie Brechó Virtual é a prova de que é possível ser elegante e confortável sem precisar recorrer às fast fashion. Não aceitamos trocas nem devoluções. As peças são únicas, não possuem variação de numeração além da anunciada. Fazemos entregas gratuitas nas estações de metrô e rodoviária.</p>
 
        <div class="container-vestir">
@@ -188,7 +187,7 @@
        </div>
     </section>
     <section id="decorar">
-    <h2>Para decorar</h2>
+    <h2 class="subtitulos">Para decorar</h2>
     <p>O bordado é uma técnica de decoração têxtil que tem longa história e diversas formas de aplicação. A proposta trazida por Cleuber é a de construir composições que dão cara atual e contextualizem o bordado nos anos de 2020. Todas as peças disponíveis no site são para pronta-entrega, para encomendas, entrar em contato conosco!</p>
     <div class="container-decorar">
         <div class="card-decorar">
@@ -255,7 +254,7 @@
     </section>
 
     <section id="criar">
-        <h2>Para criar</h2>
+        <h2 class="subtitulos">Para criar</h2>
         <p>
             A ilustração pode expressar diversos sentimentos e pensamentos (e quem sabe, quando o sentimento e o pensamento são uma coisa só?!). Izadora, designer, ilustradora e quadrinista seleciona algumas de suas criações, que podem personalizar diversos artigos de papelaria. Assim, você pode se conectar de um jeito mais afetivo com o seu caderno, calendário, bloquinho de anotações, e o que mais a sua criatividade mandar. 
         </p>
@@ -395,12 +394,8 @@
                 <p>IFB - TSI - Construção de Páginas para Internet</p>
                 <p>Professor Tiago Segato</p>
                 <p>Ilustrações de Mathew Wong - Blush Design</p>
-        
                 <h6>“Até mais e obrigado pelos peixes!”</h6></div>
-        </div>
-        
-        
+        </div> 
     </footer>
 </body>
-
 </html>
