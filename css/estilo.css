@@ -256,7 +256,7 @@ h2 {
     content: 'R$';
 }
 
-#decorar p{
+#decorar p, #criar p{
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
@@ -267,15 +267,15 @@ h2 {
     padding-bottom: 8px;
 }
 
-#decorar{
+#decorar, #criar{
     background-color: var(--branco);
     padding: 60px;
 }
 
-.container-decorar {
+.container-decorar, .container-criar{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*adicionato para testar se consigo dividir os flexbox em 2 linhas - Cleuber */
 }
 
 .card-decorar {
@@ -283,18 +283,31 @@ h2 {
     background: var(--amarelo-claro);
     height: 500px;
     border-radius: 20px 20px 20px 20px;
-    margin: 40px 40px 0px 40px;
+    margin: 40px 40px 0px 40px; /*código original dayane*/
+    /* margin: 10px; adicionado por cleuber para fazer teste*/
     display: block;
+    /*flex-basis: 40%; codigo original da dayane, se meu teste der errado, retornar para o modo programação, na medida em que apago meu teste*/
     flex-basis: 40%;
+    /*flex: 1 1 200px; adicionado por cleuber para fazer teste*/
+    max-width: 800px;/*adicionado por cleuber para fazer teste*/
 }
 
-.card-decorar_imagem {
+.card-criar {
+    box-sizing: border-box;
+    background: var(--amarelo-claro);
+    border-radius: 20px 20px 20px 20px;
+    margin: 40px 40px 0px 40px;
+    display: block;
+    flex-basis: 20%;
+}
+.card-decorar_imagem, .card-criar_imagem {
     width: 100%;
     height: 80%;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
-.card-decorar_detalhes {
+.card-decorar_detalhes, .card-criar_detalhes {
     display: flex;
     justify-content: space-between;
     padding: 0px 10px 0px 10px;
@@ -303,16 +316,16 @@ h2 {
     
 }
 
-.card-decorar_detalhes {
+.card-decorar_detalhes, .card-criar_detalhes {
     align-items: center;
 
 }
 
-.card-decorar_descricao span {
+.card-decorar_descricao span, .card-criar_descricao span  {
     display: block;
 }
 
-.card-decorar_descricao span:nth-of-type(1) {
+.card-decorar_descricao span:nth-of-type(1), .card-criar_descricao span:nth-of-type(1) {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 500;
@@ -321,7 +334,7 @@ h2 {
     padding: 0 8px;
 }
 
-.card-decorar_descricao span:nth-of-type(2) {
+.card-decorar_descricao span:nth-of-type(2), .card-criar_descricao span:nth-of-type(2) {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
@@ -330,7 +343,7 @@ h2 {
     padding: 0 8px;
 }
 
-.card-decorar_valor {
+.card-decorar_valor, .card-criar_valor {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
@@ -339,7 +352,7 @@ h2 {
     padding: 0 8px;
 }
 
-.card-decorar_valor::before {
+.card-decorar_valor::before, .card-criar_valor::before {
     content: 'R$';
 }
 
