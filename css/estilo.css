@@ -450,6 +450,10 @@ input, select, fieldset, textarea {
 	background-color: var(--amarelo-claro);
 }
 
+textarea {
+    resize: none;
+}
+
 input[type="submit"], input[type="reset"] {
     margin: 10px 8px;
 }
