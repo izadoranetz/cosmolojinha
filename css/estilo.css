@@ -238,7 +238,7 @@ h2 {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 30px;
 }
 
@@ -257,6 +257,7 @@ h2 {
     font-size: 24px;
     line-height: 30px;
     padding: 0 8px;
+    white-space: nowrap;
 }
 
 .card-vestir_valor::before {
@@ -357,6 +358,7 @@ h2 {
     font-size: 24px;
     line-height: 30px;
     padding: 0 8px;
+    white-space: nowrap;
 }
 
 .card-decorar_valor::before, .card-criar_valor::before {
