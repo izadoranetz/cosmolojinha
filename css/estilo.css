@@ -99,8 +99,12 @@ a:visited {
 }
 
 #lojinha {
-    background-color: var(--branco);
+    background-color: #dbd0bd;
     padding: 60px;
+}
+
+#lojinha p{
+color: var(--verde-escuro);
 }
 
 .container-lojinha {
@@ -183,7 +187,7 @@ a:visited {
 }
 
 #vestir {
-    background-color: var(--azul-claro);
+    background-color: #b7e1e5;
     padding: 60px;
 }
 
@@ -194,7 +198,7 @@ a:visited {
     font-size: 24px;
     line-height: 30px;
     font: 400 1rem var(--fonte);
-    color: var(--branco);
+    color: var(--verde-escuro);
     padding-bottom: 8px;
 }
 
