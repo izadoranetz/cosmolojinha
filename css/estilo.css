@@ -65,18 +65,19 @@ a:visited {
 }
 
 #titulo-cabecalho {
-    padding-right: 60px;
+    padding-right: 100px;
 }
 
 #titulo-cabecalho p {
-    font: 300 1rem var(--fonte);
+    font: 400 1.3rem var(--fonte);
     color: var(--verde-medio);
     width: 400px;
+    text-align: left;
 
 }
 
 .titulo-principal {
-    font: 600 3.5rem var(--fonte);
+    font: 600 4rem var(--fonte);
     color: var(--verde-medio);
 }
 
@@ -87,7 +88,7 @@ a:visited {
 
 #sobre-nos p,
 #lojinha p {
-    font: 400 1rem var(--fonte);
+    font: 400 1.2rem var(--fonte);
     color: var(--verde-medio);
     padding-bottom: 8px;
 }
@@ -193,7 +194,7 @@ a:visited {
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
-    font: 400 1rem var(--fonte);
+    font: 400 1.2rem var(--fonte);
     color: var(--branco);
     padding-bottom: 8px;
 }
@@ -274,7 +275,7 @@ a:visited {
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
-    font: 400 1rem var(--fonte);
+    font: 400 1.2rem var(--fonte);
     color: var(--verde-escuro);
     padding-bottom: 8px;
 }
